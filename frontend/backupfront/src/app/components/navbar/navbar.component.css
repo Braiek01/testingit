@@ -1,0 +1,23 @@
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
+
+:root {                         
+  --primary-color: #3B82F6;
+  --text-color: #E5E7EB;
+  --surface-0: #121212;
+  --surface-50: #1E1E1E;
+  --surface-100: #2A2A2A;
+}
+
+body {
+  background-color: var(--surface-0);
+  color: var(--text-color);
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+}
+
+/* Responsive Typography */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+}
